@@ -56,7 +56,7 @@ El proyecto se implementa bajo una arquitectura de **Monorepo** desacoplada, div
 
 ```text
 /
-├── GEMINI.md           # Contexto del proyecto para LLMs (Este archivo).
+├── GEMINI.md           # Contexto del proyecto para IA (Este archivo).
 ├── README.md           # Guía de setup e infraestructura para humanos.
 ├── .gitignore          # Excluye entornos virtuales, n8n_data locales y JSONs temporales.
 │
@@ -65,7 +65,7 @@ El proyecto se implementa bajo una arquitectura de **Monorepo** desacoplada, div
 │   ├── docker-compose.yml # n8n + PostgreSQL (Template oficial de n8n-hosting).
 │   └── init-data.sh    # Script oficial de inicialización segura de base de datos.
 │
-└── script/             # Capa Local: Código del inyector de escritorio Windows (RPA).
+└── python/             # Capa Local: Código del inyector de escritorio Windows (RPA).
     ├── main.py         # Script principal en Python para automatización de UI.
     ├── requirements.txt # Dependencias de Python (pywinauto, pyautogui, requests).
     └── notificaciones.json # Payload JSON estructurado de prueba (Mock para desarrollo).
